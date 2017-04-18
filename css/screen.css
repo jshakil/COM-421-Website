@@ -40,9 +40,9 @@ li  {
 li a {
     text-decoration: none;
     color: #FFF;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-a:hover {
-    border-bottom: 2px 3px;
+li a:hover {
+   border-bottom: 3px solid;
 }
