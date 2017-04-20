@@ -54,7 +54,62 @@ li a:hover {
     height: auto;
 }
 
-.change {
-    display: flex;
-    justify-content: flex-end;
+#climate {
+    padding-top: 90px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 60px
 }
+
+
+.climate-change-background {
+    background-image: url(/images/climate-change-background.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.change {
+    padding-top: 100px;
+    position: absolute;
+    left: 200px;
+    right: 1000px;
+    line-height: 47px;
+    color: #FFF;
+    font-size: 25px
+}
+
+.change-two {
+    padding-top: 100px;
+    position: absolute;
+    left: 1000px;
+    right: 100px;
+    line-height: 47px;
+    color: #FFF;
+    font-size: 25px
+}
+
+.resource-click {
+    padding-top: 800px;
+    text-align: center;
+    color: #FFF;
+    font-size: 45px; 
+}
+
+#climate-resources {
+     text-align: center;
+    color: #FFF;
+    font-size: 35px; 
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
+    border-bottom: 3px solid;
+}
+
