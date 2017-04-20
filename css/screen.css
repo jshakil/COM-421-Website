@@ -54,3 +54,7 @@ li a:hover {
     height: auto;
 }
 
+.change {
+    display: flex;
+    justify-content: flex-end;
+}
