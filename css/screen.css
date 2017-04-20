@@ -28,8 +28,8 @@ body, html {
 .navigation {
     list-style-type: none;
     margin: 0;
-    padding-left: 900px;
-    padding-top: -10px;
+    padding-left: 1500px;
+    padding-top: 40px;
 }
 
 li  {
@@ -45,5 +45,12 @@ li a {
 
 li a:hover {
    border-bottom: 3px solid;
+}
+
+.logo {
+    padding-top: 720px;
+    padding-left: 740px;
+    width: 300px;
+    height: auto;
 }
 
