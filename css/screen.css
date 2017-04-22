@@ -26,11 +26,16 @@ body, html {
   text-align: center;
 }
 
+header {
+  width: 100%;
+  text-align: center;
+}
+
 .navigation {
   list-style-type: none;
   margin: 0;
-  padding-left: 1500px;
   padding-top: 40px;
+  text-align: center;
 }
 
 li {
