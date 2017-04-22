@@ -130,7 +130,7 @@ li a:hover {
     right: 100px;
     line-height: 47px;
     color: #FFF;
-    font-size: 25px
+    font-size: 25px;
 }
 
 #help-heading {
@@ -140,7 +140,7 @@ li a:hover {
     padding-bottom: 60px
 }
 
-help-background {
+.help-background {
     background-image: url(/images/help.jpg);
     height: 100%;
     background-attachment: fixed;
@@ -156,7 +156,7 @@ help-background {
     right: 1000px;
     line-height: 47px;
     color: #FFF;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .help-two {
@@ -176,6 +176,25 @@ help-background {
     font-size: 45px; 
 }
 
+#resources-background {
+    background-image: url(/images/res.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.resources-text {
+    position: absolute;
+    margin-left: 360px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 20px
+}
+
+
 a {
     text-decoration: none;
     color: #FFF;
@@ -185,3 +204,8 @@ a:hover {
     border-bottom: 3px solid;
 }
 
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
