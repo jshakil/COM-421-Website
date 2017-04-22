@@ -4,257 +4,276 @@ body, html {
   width: 100%;
 }
 
-#hero-background {
-    background-image: url(/images/hero.jpg);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.hero-background {
+  background-image: url(/images/hero.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-text {
-    position: absolute;
-    margin-left: 360px;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: #FFF;
-    font-size: 20px
+  position: absolute;
+  margin-left: 360px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  font-size: 20px;
 }
 
 #climate-change {
-    text-align: center
+  text-align: center;
 }
 
 .navigation {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 1500px;
-    padding-top: 40px;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 1500px;
+  padding-top: 40px;
 }
 
-li  {
-    padding-left: 25px;
-    display: inline;
+li {
+  padding-left: 25px;
+  display: inline;
 }
 
 li a {
-    text-decoration: none;
-    color: #FFF;
-    font-size: 18px;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 18px;
 }
 
 li a:hover {
-   border-bottom: 3px solid;
+  border-bottom: 3px solid;
 }
 
 .logo {
-    padding-top: 720px;
-    padding-left: 740px;
-    width: 300px;
-    height: auto;
+  padding-top: 720px;
+  padding-left: 740px;
+  width: 300px;
+  height: auto;
 }
 
 #climate {
-    padding-top: 90px;
-    font-size: 40px;
-    text-align: center;
-    padding-bottom: 60px
+  padding-top: 90px;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
+#climate-two {
+  padding-top: 90px;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 60px;
+}
 
 .climate-change-background {
-    background-image: url(/images/climate-change-background.jpg);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(/images/climate-change-background.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .change {
-    padding-top: 100px;
-    position: absolute;
-    left: 200px;
-    right: 1000px;
-    line-height: 47px;
-    color: #FFF;
-    font-size: 25px
+  padding-top: 100px;
+  position: absolute;
+  left: 200px;
+  right: 1000px;
+  line-height: 47px;
+  color: #FFF;
+  font-size: 25px;
 }
 
 .change-two {
-    padding-top: 100px;
-    position: absolute;
-    left: 1000px;
-    right: 100px;
-    line-height: 47px;
-    color: #FFF;
-    font-size: 25px
+  padding-top: 100px;
+  position: absolute;
+  left: 1000px;
+  right: 100px;
+  line-height: 47px;
+  color: #FFF;
+  font-size: 25px;
 }
 
 #climate-resources {
-     text-align: center;
-    color: #FFF;
-    font-size: 35px; 
+  text-align: center;
+  color: #FFF;
+  font-size: 35px;
+}
+
+#climate-resources-two {
+  text-align: center;
+  color: #FFF;
+  font-size: 35px;
+}
+
+#climate-resources-three {
+  text-align: center;
+  color: #FFF;
+  font-size: 35px;
 }
 
 #impact-heading {
-    padding-top: 90px;
-    font-size: 40px;
-    text-align: center;
-    padding-bottom: 60px
+  padding-top: 90px;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
 .impact-background {
-    background-image: url(/images/impact-background.jpg);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(/images/impact-background.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .impact {
-    padding-top: 100px;
-    position: absolute;
-    left: 200px;
-    right: 1000px;
-    line-height: 47px;
-    color: #FFF;
-    font-size: 25px
+  padding-top: 100px;
+  position: absolute;
+  left: 200px;
+  right: 1000px;
+  line-height: 47px;
+  color: #FFF;
+  font-size: 25px;
 }
 
 .impact-two {
-    padding-top: 100px;
-    position: absolute;
-    left: 1000px;
-    right: 100px;
-    line-height: 47px;
-    color: #FFF;
-    font-size: 25px;
+  padding-top: 100px;
+  position: absolute;
+  left: 1000px;
+  right: 100px;
+  line-height: 47px;
+  color: #FFF;
+  font-size: 25px;
 }
 
 #help-heading {
-    padding-top: 90px;
-    font-size: 40px;
-    text-align: center;
-    padding-bottom: 60px
+  padding-top: 90px;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
 .help-background {
-    background-image: url(/images/help.jpg);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(/images/help.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .help {
-    padding-top: 100px;
-    position: absolute;
-    left: 200px;
-    right: 100px;
-    line-height: 47px;
-    color: #FFF;
-    font-size: 25px;
-    text-align: center;
+  padding-top: 100px;
+  position: absolute;
+  left: 200px;
+  right: 100px;
+  line-height: 47px;
+  color: #FFF;
+  font-size: 25px;
+  text-align: center;
 }
 
 .help-two {
-    padding-top: 100px;
-    position: absolute;
-    left: 1000px;
-    right: 100px;
-    line-height: 47px;
-    color: #FFF;
-    font-size: 25px
+  padding-top: 100px;
+  position: absolute;
+  left: 1000px;
+  right: 100px;
+  line-height: 47px;
+  color: #FFF;
+  font-size: 25px;
 }
 
 .resource-click {
-    padding-top: 800px;
-    text-align: center;
-    color: #FFF;
-    font-size: 45px; 
+  padding-top: 800px;
+  text-align: center;
+  color: #FFF;
+  font-size: 45px;
 }
 
 #resources-background {
-    background-image: url(/images/resources.jpg);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(/images/resources.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .resources-text {
-    position: absolute;
-    margin-left: 360px;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: #FFF;
-    font-size: 20px
+  position: absolute;
+  margin-left: 360px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  font-size: 20px;
 }
 
 .resources-change {
-    padding-top: 100px;
-    position: absolute;
-    left: 200px;
-    right: 10px;
-    line-height: 47px;
-    color: #FFF;
-    font-size: 25px
+  padding-top: 100px;
+  position: absolute;
+  left: 200px;
+  right: 10px;
+  line-height: 47px;
+  color: #FFF;
+  font-size: 25px;
 }
 
 #senior-background {
-    background-image: url(/images/senior-background.jpg);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(/images/senior-background.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .senior-text {
-    position: absolute;
-    margin-left: 360px;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: #FFF;
-    font-size: 20px
+  position: absolute;
+  margin-left: 360px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  font-size: 20px;
 }
 
 .america-background {
-    background-image: url(/images/america.jpg);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(/images/america.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
-    text-decoration: none;
-    color: #FFF;
+  text-decoration: none;
+  color: #FFF;
 }
 
 a:hover {
-    border-bottom: 3px solid;
+  border-bottom: 3px solid;
 }
 
 .footer {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .vote {
-    padding-top: 100px;
-    position: absolute;
-    left: 200px;
-    right: 10px;
-    line-height: 47px;
-    color: #FFF;
-    font-size: 25px;
-    text-align: center;
+  padding-top: 100px;
+  position: absolute;
+  left: 200px;
+  right: 10px;
+  line-height: 47px;
+  color: #FFF;
+  font-size: 25px;
+  text-align: center;
 }
+
