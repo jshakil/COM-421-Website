@@ -97,6 +97,13 @@ li a:hover {
     font-size: 35px; 
 }
 
+#impact-heading {
+    padding-top: 90px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 60px
+}
+
 .impact-background {
     background-image: url(/images/impact-background.jpg);
     height: 100%;
@@ -126,11 +133,40 @@ li a:hover {
     font-size: 25px
 }
 
-#impact-heading {
+#help-heading {
     padding-top: 90px;
     font-size: 40px;
     text-align: center;
     padding-bottom: 60px
+}
+
+help-background {
+    background-image: url(/images/help.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.help {
+    padding-top: 100px;
+    position: absolute;
+    left: 200px;
+    right: 1000px;
+    line-height: 47px;
+    color: #FFF;
+    font-size: 25px
+}
+
+.help-two {
+    padding-top: 100px;
+    position: absolute;
+    left: 1000px;
+    right: 100px;
+    line-height: 47px;
+    color: #FFF;
+    font-size: 25px
 }
 
 .resource-click {
