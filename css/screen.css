@@ -91,17 +91,53 @@ li a:hover {
     font-size: 25px
 }
 
+#climate-resources {
+     text-align: center;
+    color: #FFF;
+    font-size: 35px; 
+}
+
+.impact-background {
+    background-image: url(/images/impact-background.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.impact {
+    padding-top: 100px;
+    position: absolute;
+    left: 200px;
+    right: 1000px;
+    line-height: 47px;
+    color: #FFF;
+    font-size: 25px
+}
+
+.impact-two {
+    padding-top: 100px;
+    position: absolute;
+    left: 1000px;
+    right: 100px;
+    line-height: 47px;
+    color: #FFF;
+    font-size: 25px
+}
+
+#impact-heading {
+    padding-top: 90px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 60px
+}
+
 .resource-click {
     padding-top: 800px;
     text-align: center;
     color: #FFF;
     font-size: 45px; 
-}
-
-#climate-resources {
-     text-align: center;
-    color: #FFF;
-    font-size: 35px; 
 }
 
 a {
